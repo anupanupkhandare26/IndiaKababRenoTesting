@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="India Kabab Reno ">
+<listeners>
+        <listener class-name="com.indiaKababReno.library.BugReportListener" />
+    </listeners>
+  <test name="Functionality Testing">
+  <parameter name="browsername" value="chrome" />
+    <classes>
+    
+      <class name="com.indiaKababReno.tests.menuPageTest"/>
+      <class name="com.indiaKababReno.tests.paymentTest"/>
+      <class name="com.indiaKababReno.tests.WebsiteBugTests"/>
+      <class name="com.indiaKababReno.tests.registrationPageTest"/>
+      <class name="com.indiaKababReno.tests.homePageTest"/>
+      <class name="com.indiaKababReno.tests.sanityLinkTests"/>
+    </classes>
+  </test> <!-- Functionality Testing -->
+</suite> <!-- India Kabab Reno  -->
