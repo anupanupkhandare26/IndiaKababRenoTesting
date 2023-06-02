@@ -1,5 +1,6 @@
 # IndiaKababRenoTesting
 This GitHub project is dedicated to the automation testing of the India Kabab Reno website, which is a popular Indian restaurant located at 1091 S Virginia St, Reno, NV 89502. The project focuses on testing various functionalities of the website, including user login, registration, online ordering, and table booking.
+
 Technologies Used:
 Selenium: The automation framework is built using Selenium, a widely-used testing tool for web applications. It provides robust features for interacting with web elements, performing actions, and validating expected results.
 
@@ -9,6 +10,7 @@ Maven: Maven is utilized for build management, providing dependency management a
 
 Testing Framework and Design Pattern:
 The project follows a data-driven framework with the Page Object Model (POM) design pattern. This design pattern enhances test maintainability, reusability, and readability by separating page objects (representing web pages) from the test scripts. It provides a clear separation of concerns, making the tests more modular and easier to maintain.
+
 
 Key Testing Scenarios:
 Home Page Testing: The project includes comprehensive testing of the India Kabab Reno website's home page, validating elements, navigation links, and overall user experience.
